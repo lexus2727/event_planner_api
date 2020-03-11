@@ -4,9 +4,7 @@ Rails.application.routes.draw do
       namespace :v1 do
       
      
-  resources :events, only: [:show] do
-    resources :tasks, only: [:index]
-  end 
+  
 
   resources :tasks, only: [:create, :update, :destroy]
   resources :events
