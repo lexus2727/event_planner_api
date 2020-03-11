@@ -17,5 +17,5 @@ Task.create(event_id: 2, completed: false, deadline: "2018-09-10T12:59", descrip
 
 
 Event.create(deadline: "2020-07-04T12:59", title: "Foo Fighter Concert", description: "Located at FedEx Arena")
-Task.create(event_id: 3, completed: true, deadline: "2020-05-03T12:59", description: "Purchase tickets via Ticketmaster")
-Task.create(event_id: 3, completed: false, deadline: "2020-04-10T12:59", description: "Save $350 for tickets")
+Task.create(event_id: 3, completed: false, deadline: "2020-05-03T12:59", description: "Purchase tickets via Ticketmaster")
+Task.create(event_id: 3, completed: true, deadline: "2020-04-10T12:59", description: "Save $350 for tickets")
